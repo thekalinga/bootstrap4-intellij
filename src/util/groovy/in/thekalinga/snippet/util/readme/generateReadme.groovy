@@ -2,6 +2,8 @@ package in.thekalinga.snippet.util.readme
 
 import static com.google.common.base.CaseFormat.LOWER_UNDERSCORE
 import static com.google.common.base.CaseFormat.UPPER_CAMEL
+
+
 // current dir is src/util/groovy/in/thekalinga/snippet/util/readme
 // navigating to bootstrap.xml in main/resources is ../../../../../../../main/resources
 def bootstrapFile = new File("../../../../../../../main/resources/bootstrap.xml")

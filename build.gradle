@@ -1,12 +1,19 @@
 buildscript {
     repositories {
-        maven { url 'http://dl.bintray.com/jetbrains/intellij-plugin-service' }
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
+        maven {
+            url 'http://dl.bintray.com/jetbrains/intellij-plugin-service'
+        }
+        jcenter()
+    }
+    dependencies {
+        classpath "org.jetbrains.intellij.plugins:gradle-intellij-plugin:0.2.0-SNAPSHOT"
     }
 }
 
-plugins {
-    id "org.jetbrains.intellij" version "0.1.10"
-}
+apply plugin: 'org.jetbrains.intellij'
 
 group 'in.thekalinga'
 version '1.0.0-SNAPSHOT'
@@ -23,6 +30,14 @@ sourceSets {
 
 repositories {
     jcenter()
+}
+
+intellij {
+    publish {
+        username ij_plugin_portal_login
+        password ij_plugin_portal_password
+        channels 'eap', 'nightly', 'default'
+    }
 }
 
 dependencies {
