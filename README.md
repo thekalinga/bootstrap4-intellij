@@ -47,11 +47,11 @@ Initial support for Bootstrap v4.0.0-alpha.5 & Font awesome 4.7
 - [Alert/success-a](#alertsuccess-a)
 - [Alert/warning](#alertwarning)
 - [Alert/warning-a](#alertwarning-a)
-- [Bgroup/default](#bgroupdefault)
-- [Bgroup/dropdown](#bgroupdropdown)
-- [Bgroup/dropdown-vertical](#bgroupdropdown-vertical)
-- [Bgroup/size](#bgroupsize)
-- [Bgroup/toolbar](#bgrouptoolbar)
+- [Button group/default](#button-groupdefault)
+- [Button group/dropdown](#button-groupdropdown)
+- [Button group/dropdown-vertical](#button-groupdropdown-vertical)
+- [Button group/size](#button-groupsize)
+- [Button group/toolbar](#button-grouptoolbar)
 - [Breadcrumb/default](#breadcrumbdefault)
 - [Breadcrumb/list](#breadcrumblist)
 - [Button/a](#buttona)
@@ -138,14 +138,14 @@ Initial support for Bootstrap v4.0.0-alpha.5 & Font awesome 4.7
 - [Grid/container-fluid](#gridcontainer-fluid)
 - [Grid/grid](#gridgrid)
 - [Grid/row](#gridrow)
-- [Igroup/button](#igroupbutton)
-- [Igroup/checkbox-radio](#igroupcheckbox-radio)
-- [Igroup/dropdown](#igroupdropdown)
-- [Igroup/dropdown-segmented](#igroupdropdown-segmented)
-- [Igroup/size](#igroupsize)
-- [Igroup/text-both](#igrouptext-both)
-- [Igroup/text-prefix](#igrouptext-prefix)
-- [Igroup/text-sufix](#igrouptext-sufix)
+- [Input group/button](#input-groupbutton)
+- [Input group/checkbox-radio](#input-groupcheckbox-radio)
+- [Input group/dropdown](#input-groupdropdown)
+- [Input group/dropdown-segmented](#input-groupdropdown-segmented)
+- [Input group/size](#input-groupsize)
+- [Input group/text-both](#input-grouptext-both)
+- [Input group/text-prefix](#input-grouptext-prefix)
+- [Input group/text-sufix](#input-grouptext-sufix)
 - [Image/default](#imagedefault)
 - [Jumbotron/default](#jumbotrondefault)
 - [Jumbotron/fluid_jumbotron](#jumbotronfluid_jumbotron)
@@ -282,31 +282,31 @@ Initial support for Bootstrap v4.0.0-alpha.5 & Font awesome 4.7
 |------------------------------- | -------------------------------| ------- |
 | alert warning a                | b4/alert/warning-a             | HTML    |
 
-### Bgroup/default
+### Button group/default
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
 | bgroup default                 | b4/bgroup/default              | HTML    |
 
-### Bgroup/dropdown
+### Button group/dropdown
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
 | bgroup dropdown                | b4/bgroup/dropdown             | HTML    |
 
-### Bgroup/dropdown-vertical
+### Button group/dropdown-vertical
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
 | bgroup dropdown vertical       | b4/bgroup/dropdown-vertical    | HTML    |
 
-### Bgroup/size
+### Button group/size
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
 | bgroup size                    | b4/bgroup/size                 | HTML    |
 
-### Bgroup/toolbar
+### Button group/toolbar
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
