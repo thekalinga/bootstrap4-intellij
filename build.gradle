@@ -16,7 +16,7 @@ buildscript {
 apply plugin: 'org.jetbrains.intellij'
 
 group 'in.thekalinga'
-version '1.0.0-SNAPSHOT'
+version '1.0.0'
 
 apply plugin: 'groovy'
 apply plugin: 'java'
@@ -34,8 +34,8 @@ repositories {
 
 intellij {
     publish {
-        username ij_plugin_portal_login
-        password ij_plugin_portal_password
+        username System.getProperty('ij_plugin_portal_login')
+        password System.getProperty('ij_plugin_portal_password')
         channels 'eap', 'nightly', 'default'
     }
 }
