@@ -286,31 +286,31 @@ Initial support for Bootstrap v4.0.0-alpha.5 & Font awesome 4.7
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| bgroup default                 | b4/bgroup/default              | HTML    |
+| Button group default                 | b4/bgroup/default              | HTML    |
 
 ### Button group/dropdown
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| bgroup dropdown                | b4/bgroup/dropdown             | HTML    |
+| Button group dropdown                | b4/bgroup/dropdown             | HTML    |
 
 ### Button group/dropdown-vertical
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| bgroup dropdown vertical       | b4/bgroup/dropdown-vertical    | HTML    |
+| Button group dropdown vertical       | b4/bgroup/dropdown-vertical    | HTML    |
 
 ### Button group/size
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| bgroup size                    | b4/bgroup/size                 | HTML    |
+| Button group size                    | b4/bgroup/size                 | HTML    |
 
 ### Button group/toolbar
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| bgroup toolbar                 | b4/bgroup/toolbar              | HTML    |
+| Button group toolbar                 | b4/bgroup/toolbar              | HTML    |
 
 ### Breadcrumb/default
 
@@ -828,53 +828,53 @@ Initial support for Bootstrap v4.0.0-alpha.5 & Font awesome 4.7
 |------------------------------- | -------------------------------| ------- |
 | grid row                       | b4/grid/row                    | HTML    |
 
-### Igroup/button
+### Input group/button
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| igroup button                  | b4/igroup/button               | HTML    |
+| Input group button                  | b4/igroup/button               | HTML    |
 
-### Igroup/checkbox-radio
-
-| Component                      | Snippet code                   | Context |
-|------------------------------- | -------------------------------| ------- |
-| igroup checkbox radio          | b4/igroup/checkbox-radio       | HTML    |
-
-### Igroup/dropdown
+### Input group/checkbox-radio
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| igroup dropdown                | b4/igroup/dropdown             | HTML    |
+| Input group checkbox radio          | b4/igroup/checkbox-radio       | HTML    |
 
-### Igroup/dropdown-segmented
-
-| Component                      | Snippet code                   | Context |
-|------------------------------- | -------------------------------| ------- |
-| igroup dropdown segmented      | b4/igroup/dropdown-segmented   | HTML    |
-
-### Igroup/size
+### Input group/dropdown
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| igroup size                    | b4/igroup/size                 | HTML    |
+| Input group dropdown                | b4/igroup/dropdown             | HTML    |
 
-### Igroup/text-both
-
-| Component                      | Snippet code                   | Context |
-|------------------------------- | -------------------------------| ------- |
-| igroup text both               | b4/igroup/text-both            | HTML    |
-
-### Igroup/text-prefix
+### Input group/dropdown-segmented
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| igroup text prefix             | b4/igroup/text-prefix          | HTML    |
+| Input group dropdown segmented      | b4/igroup/dropdown-segmented   | HTML    |
 
-### Igroup/text-sufix
+### Input group/size
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| igroup text sufix              | b4/igroup/text-sufix           | HTML    |
+| Input group size                    | b4/igroup/size                 | HTML    |
+
+### Input group/text-both
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | -------------------------------| ------- |
+| Input group text both               | b4/igroup/text-both            | HTML    |
+
+### Input group/text-prefix
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | -------------------------------| ------- |
+| Input group text prefix             | b4/igroup/text-prefix          | HTML    |
+
+### Input group/text-sufix
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | -------------------------------| ------- |
+| Input group text sufix              | b4/igroup/text-sufix           | HTML    |
 
 ### Image/default
 
