@@ -1,9 +1,8 @@
 package in.thekalinga.snippet.util.readme
 
-import in.thekalinga.snippet.util.readme.Component
-import in.thekalinga.snippet.util.readme.Group
-
-def fontAwesomeFile = new File("../../main/resources/font-awesome.xml")
+// current dir is src/util/groovy/in/thekalinga/snippet/util/readme
+// navigating to bootstrap.xml in main/resources is ../../../../../../../main/resources
+def fontAwesomeFile = new File("../../../../../../../main/resources/font-awesome.xml")
 def root = new XmlParser().parse(fontAwesomeFile)
 
 def templates = root.template

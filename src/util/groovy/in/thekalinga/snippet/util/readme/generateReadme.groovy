@@ -1,8 +1,10 @@
 package in.thekalinga.snippet.util.readme
 
-import com.google.common.base.CaseFormat
-
-def bootstrapFile = new File("../../main/resources/bootstrap.xml")
+import static com.google.common.base.CaseFormat.LOWER_UNDERSCORE
+import static com.google.common.base.CaseFormat.UPPER_CAMEL
+// current dir is src/util/groovy/in/thekalinga/snippet/util/readme
+// navigating to bootstrap.xml in main/resources is ../../../../../../../main/resources
+def bootstrapFile = new File("../../../../../../../main/resources/bootstrap.xml")
 def root = new XmlParser().parse(bootstrapFile)
 
 def templates = root.template
@@ -19,7 +21,7 @@ printComponents(groups)
 
 void printToc(groups) {
     groups.each {
-        println "- [${it.name}](#${CaseFormat.UPPER_CAMEL.to(CaseFormat.LOWER_UNDERSCORE, it.name)})"
+        println "- [${it.name}](#${UPPER_CAMEL.to(LOWER_UNDERSCORE, it.name).replaceAll('/', '')})"
     }
 }
 
