@@ -1,0 +1,48 @@
+<idea-plugin version="2" url="https://github.com/bodiam/intellij-bootstrap3">
+    <id>in.thekalinga.snippet.intellij</id>
+    <name>Bootstrap 4 &amp; Font awesome 4.7</name>
+    <version>1.0.0</version>
+    <vendor email="thekalinga@gmail.com" url="http://thekalinga.in">Ashok Koyi</vendor>
+
+    <description><![CDATA[
+      <h2>Bootstrap 4 & Font awesome 4.7 live templates/snippets</h2>
+      <br />
+      <p>Documentation can be found <a href="https://github.com/thekalinga/bootstrap4-intellij">here</a></p>
+      <br />
+      <p>Have a problem, raise an issue <a href="https://github.com/thekalinga/bootstrap4-intellij/issues">here</a></p>
+      <br />
+      <p>Follow me on Twitter: <a href="https://twitter.com/thekalinga"><b>@thekalinga</b></a></p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        1.0.0 Initial release<br />
+    ]]>
+    </change-notes>
+
+    <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+    <idea-version since-build="107.105"/>
+
+    <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+         on how to target different products -->
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <defaultLiveTemplatesProvider
+                implementation="in.thekalinga.snippet.intellij.TemplatesProvider"/>
+    </extensions>
+
+    <application-components>
+        <!-- Add your application components here -->
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+    </project-components>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>

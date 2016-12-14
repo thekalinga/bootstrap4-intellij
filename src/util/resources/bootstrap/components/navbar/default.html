@@ -1,0 +1,26 @@
+<nav class="navbar navbar-light bg-faded">
+	<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#${1:collapsibleNavId}" aria-controls="${1:collapsibleNavId}"
+			aria-expanded="false" aria-label="${2:Toggle navigation}"></button>
+	<div class="collapse navbar-toggleable-md" id="${1:collapsibleNavId}">
+		<a class="navbar-brand" href="${4:#}">${3:My App/Logo with Text}</a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="${6:#}">${5:Nav 1} <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="${8:#}">${7:Nav 2}</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="${10:#}" id="${11:dropdownId}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">${9:Nav 3 dropdown}</a>
+				<div class="dropdown-menu" aria-labelledby="${11:dropdownId}">
+					<a class="dropdown-item" href="${13:#}">${12:Action 1}</a>
+					<a class="dropdown-item" href="${15:#}">${14:Action 2}</a>
+				</div>
+			</li>
+		</ul>
+		<form class="form-inline float-xs-right">
+			<input class="form-control" type="text" placeholder="${16:Search}">
+			<button class="btn btn-outline-success" type="submit">${16:Search}</button>
+		</form>
+	</div>
+</nav>
