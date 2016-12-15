@@ -12,8 +12,10 @@ A set of Bootstrap 4 & Font awesome 4.7 snippets for the following JetBrains pro
 
 Create a new HTML document and
 
-1. Type `b4/` followed by pressing Ctrl+Space to see all available bootstrap 4 snippets.
-2. Type `fa/` followed by pressing Ctrl+Space to see all available font awesome 4.7 snippets.
+1. Type `b4-` followed by pressing `Ctrl+Space` to see all available bootstrap 4 snippets.
+2. Type `fa-` followed by pressing `Ctrl+Space` to see all available font awesome 4.7 snippets.
+
+Alternatively you can type `jumbotron` followed by `Ctrl+J` to see the snippet matches
 
 ![Plugin in action](https://raw.githubusercontent.com/thekalinga/bootstrap4-intellij/master/screencasts/starter-template.gif)
 
@@ -39,9 +41,15 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 ## What's new
 
+Since 1.0.1 (15 Dec 2016):
+
+1. Changed all keys to be mapped using `-` instead of `/`
+2. Changed the way readme is generated
+3. Renamed few templates & deleted few duplicate templates
+
 Since 1.0.0 (14 Dec 2016):
 
-Initial support for Bootstrap v4.0.0-alpha.5 & Font awesome 4.7
+1. Initial support for Bootstrap v4.0.0-alpha.5 & Font awesome 4.7
 
 ## Documentation
 
