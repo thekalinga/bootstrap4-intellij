@@ -1,12 +1,12 @@
 <idea-plugin version="2" url="https://github.com/thekalinga/bootstrap4-intellij">
     <id>in.thekalinga.snippet.intellij</id>
     <name>Bootstrap 4 &amp; Font awesome 4.7</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor url="http://github.com/thekalinga">Ashok Koyi</vendor>
 
     <description><![CDATA[
       <h2>Bootstrap 4 & Font awesome 4.7 live templates/snippets</h2>
-      <img src="https://raw.githubusercontent.com/thekalinga/bootstrap4-intellij/master/screencasts/starter-template.gif"/>
+      <img width="1200" src="https://raw.githubusercontent.com/thekalinga/bootstrap4-intellij/master/help.gif"/>
       <br />
       <p>Documentation can be found <a href="https://github.com/thekalinga/bootstrap4-intellij">here</a></p>
       <br />

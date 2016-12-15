@@ -17,7 +17,7 @@ Create a new HTML document and
 
 Alternatively you can type `jumbotron` followed by `Ctrl+J` to see the snippet matches
 
-![Plugin in action](https://raw.githubusercontent.com/thekalinga/bootstrap4-intellij/master/screencasts/starter-template.gif)
+![Plugin in action](https://raw.githubusercontent.com/thekalinga/bootstrap4-intellij/master/help.gif)
 
 Feel free to let me know what else you want added via the [issues](https://github.com/thekalinga/bootstrap4-intellij/issues)
 
@@ -59,4 +59,4 @@ Since 1.0.0 (14 Dec 2016):
 Bootstrap 4 & Font awesome 4.7 - IntelliJ Plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 Disclaimer:
-This template for the source was borrowed from is borrowed from [this](https://github.com/bodiam/intellij-bootstrap3) plugin.
+Readme template for this for the source was initially borrowed from [here](https://github.com/bodiam/intellij-bootstrap3) & [here](https://github.com/JasonMortonNZ/bs3-sublime-plugin)
