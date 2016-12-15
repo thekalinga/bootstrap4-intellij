@@ -6,3 +6,4 @@ target/
 .classpath
 /bootstrap.xml
 /font-awesome.xml
+*.*~
