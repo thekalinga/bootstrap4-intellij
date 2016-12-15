@@ -1,7 +1,7 @@
 package in.thekalinga.snippet.util.readme
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import in.thekalinga.snippet.util.intellij.Icons
+import in.thekalinga.snippet.util.Icons
 import org.apache.commons.io.IOUtils
 import org.springframework.core.io.Resource
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver

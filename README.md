@@ -27,11 +27,9 @@ Suggestions, feedback and other comments welcome via [@thekalinga](https://twitt
 
 To install the plugin open your editor (IntelliJ) and hit:
 
-1) `File > Settings > Plugins` and click on the `Browse repositories` button.
-
-2) Look for `Bootstrap 4` the right click and select `Download plugin`.
-
-3) Finally hit the `Apply` button, agree to restart your IDE and you're all done!
+1. `File > Settings > Plugins` and click on the `Browse repositories` button.
+2. Look for `Bootstrap 4` the right click and select `Download plugin`.
+3. Finally hit the `Apply` button, agree to restart your IDE and you're all done!
 
 ## Contribution guidelines
 
@@ -39,17 +37,9 @@ To install the plugin open your editor (IntelliJ) and hit:
 2. Modify the html snippet resources under `src/util/resources/bootstrap`. These Html snippets must follow Sublime text snippet format
 3. Send me a pull request
 
-## What's new
+## Changelog
 
-Since 1.0.1 (15 Dec 2016):
-
-1. Changed all keys to be mapped using `-` instead of `/`
-2. Changed the way readme is generated
-3. Renamed few templates & deleted few duplicate templates
-
-Since 1.0.0 (14 Dec 2016):
-
-1. Initial support for Bootstrap v4.0.0-alpha.5 & Font awesome 4.7
+See [here](CHANGELOG.md)
 
 ## Documentation
 
@@ -1161,5 +1151,6 @@ responsive-print-show | Responsive print show
 
 Bootstrap 4 & Font awesome 4.7 - IntelliJ Plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
-Disclaimer:
+## Disclaimer:
+
 Readme template for this for the source was initially borrowed from [here](https://github.com/bodiam/intellij-bootstrap3) & [here](https://github.com/JasonMortonNZ/bs3-sublime-plugin)

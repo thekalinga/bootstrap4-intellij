@@ -2,6 +2,7 @@ package in.thekalinga.snippet.util.intellij
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.dataformat.xml.XmlMapper
+import in.thekalinga.snippet.util.Icons
 
 import static com.fasterxml.jackson.databind.SerializationFeature.INDENT_OUTPUT
 
