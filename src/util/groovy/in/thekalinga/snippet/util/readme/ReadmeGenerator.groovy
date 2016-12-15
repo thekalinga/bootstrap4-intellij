@@ -86,12 +86,12 @@ class ReadmeGenerator {
         // Handle font awesome
         builder << "\n"
         builder << "### Font awesome\n\n"
-        builder << "  Trigger\n"
-        builder << "  ---\n"
+        builder << "|Trigger}|\n"
+        builder << "|---|\n"
         ObjectMapper mapper = new ObjectMapper()
         def iconsContainer = mapper.readValue(getClass().getResourceAsStream('/font-awesome.json'), Icons.class)
         iconsContainer.icons.forEach({ iconStr ->
-            builder << "  ${iconStr}\n"
+            builder << "|${iconStr}|\n"
         })
 
         StringWriter readmeTemplate = new StringWriter()
