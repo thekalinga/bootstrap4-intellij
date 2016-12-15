@@ -16,7 +16,20 @@
     ]]></description>
 
     <change-notes><![CDATA[
-        1.0.0 Initial release<br />
+        <p>
+            <h4>Since 1.0.1 (15 Dec 2016):</h4>
+            <ol>
+                <li>Changed all keys to be mapped using `-` instead of `/`</li>
+                <li>Changed the way readme is generated</li>
+                <li>Renamed few templates & deleted few duplicate templates</li>
+            </ol>
+        </p>
+        <p>
+            <h4>Since 1.0.0 (14 Dec 2016):</h4>
+            <ol>
+                <li>Initial release</li>
+            </ol>
+        </p>
     ]]>
     </change-notes>
 
