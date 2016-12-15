@@ -17,7 +17,7 @@ Create a new HTML document and
 
 Alternatively you can type `jumbotron` followed by `Ctrl+J` to see the snippet matches
 
-The detailed list of supported actions are listed below under documentation section
+The detailed list of supported actions are listed [below](#documentation)
 
 ![Plugin in action](help.gif)
 
