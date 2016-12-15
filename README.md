@@ -1,7 +1,7 @@
-Bootstrap 4 & Font awesome 4.7 snippets for IntelliJ
+Bootstrap 4 & Font awesome snippets for IntelliJ
 ===========================
 
-A set of Bootstrap 4 & Font awesome 4.7 snippets for the following JetBrains products:
+A set of Bootstrap 4 & Font awesome snippets for the following JetBrains products:
 
 - IntelliJ IDEA
 - WebStorm and PhpStorm
@@ -13,11 +13,13 @@ A set of Bootstrap 4 & Font awesome 4.7 snippets for the following JetBrains pro
 Create a new HTML document and
 
 1. Type `b4-` followed by pressing `Ctrl+Space` to see all available bootstrap 4 snippets.
-2. Type `fa-` followed by pressing `Ctrl+Space` to see all available font awesome 4.7 snippets.
+2. Type `fa-` followed by pressing `Ctrl+Space` to see all available font awesome snippets.
 
 Alternatively you can type `jumbotron` followed by `Ctrl+J` to see the snippet matches
 
-![Plugin in action](https://raw.githubusercontent.com/thekalinga/bootstrap4-intellij/master/help.gif)
+The detailed list of supported actions are listed below under documentation section
+
+![Plugin in action](help.gif)
 
 Feel free to let me know what else you want added via the [issues](https://github.com/thekalinga/bootstrap4-intellij/issues)
 
