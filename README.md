@@ -368,7 +368,7 @@ responsive-print-show | Responsive print show
 ### Font awesome
 
   Trigger
-  ---
+  ----
   500px
   address-book
   address-book-o
