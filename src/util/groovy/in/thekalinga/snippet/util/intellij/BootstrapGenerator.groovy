@@ -24,8 +24,6 @@ class BootstrapGenerator {
             StringWriter writer = new StringWriter()
             IOUtils.copy(snippetResource.getInputStream(), writer, defaultCharset())
             def contentUntouched = writer.toString()
-            println contentUntouched
-
             def fileParent = new File(snippetResource.file.parent).name
             def fileBaseName = snippetResource.file.name.take(snippetResource.getFile().name.lastIndexOf('.'))
 
@@ -38,7 +36,7 @@ class BootstrapGenerator {
             }).collect(toList())
 
             def template = Template.builder()
-                    .name(fileBaseName != '$' ? "b4/${fileParent}/${fileBaseName}" : 'b4/$')
+                    .name(fileBaseName != '$' ? "b4-${fileParent}-${fileBaseName}" : 'b4-$')
                     .value(templateStr.contains('$END$') ? templateStr : "${templateStr}\$END\$")
                     .description(fileBaseName != '$' ? "${fileParent} ${fileBaseName}".replace(/-/, ' ') : 'Bootstrap master template')
                     .toReformat(true)

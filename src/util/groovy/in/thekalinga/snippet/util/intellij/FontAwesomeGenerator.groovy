@@ -20,7 +20,7 @@ class FontAwesomeGenerator {
         )
 
         def template = Template.builder()
-                .name('fa/\$')
+                .name('fa-\$')
                 .value('<link rel=\"stylesheet\" href=\"$1$\">\$END\$')
                 .description("Font awesome css link")
                 .toReformat(true)
@@ -42,7 +42,7 @@ class FontAwesomeGenerator {
             )
 
             template = Template.builder()
-                    .name("fa/${iconStr}")
+                    .name("fa-${iconStr}")
                     .value("<i class=\"fa fa-${iconStr}" + '$1$' +"\" aria-hidden=\"true\"></i>\$END\$")
                     .toReformat(false)
                     .variables(variables)
