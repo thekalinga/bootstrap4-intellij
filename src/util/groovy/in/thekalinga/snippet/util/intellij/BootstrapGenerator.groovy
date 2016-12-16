@@ -54,7 +54,7 @@ class BootstrapGenerator {
                 .templates(templates).build()
 
         xmlMapper.writeValue(file, templateSet)
-        println file.absolutePath
+        println "Regenerated bootstrap template file. Saved to ${file.absolutePath}"
     }
 
     static String replaceWithVarFormat(String text, int index) {

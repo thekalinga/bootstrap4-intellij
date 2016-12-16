@@ -60,7 +60,7 @@ class FontAwesomeGenerator {
                 .templates(templates).build()
 
         xmlMapper.writeValue(file, templateSet)
-        println file.absolutePath
+        println "Regenerated fontawesome template file. Saved to ${file.absolutePath}"
     }
 
 }

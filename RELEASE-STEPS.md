@@ -1,7 +1,6 @@
-- Run `BootstrapGenerator`, `FontAwesomeGenerator` & `ReadmeGenerator`
-- Update `CHANGELOG.md`
 - Bump version in `.version` file
-- Run `PluginXmlGenerator`
+- Run `RegeneratePlugin`
+- Update `CHANGELOG.md` with release notes
 - Commit
 - Create tag using `git tag -a <version> -m "<Release notes>"`
 - `git push && git push origin <version>`
