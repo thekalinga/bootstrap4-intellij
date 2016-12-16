@@ -4,5 +4,5 @@
 - Run `PluginXmlGenerator`
 - Commit
 - Create tag using `git tag -a <version> -m "<Release notes>"`
-- `git push && git push tag <version>`
+- `git push && git push origin <version>`
 - `./gradlew clean publishPlugin`
