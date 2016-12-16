@@ -1151,8 +1151,8 @@ responsive-print-show | Responsive print show
 
 ## License
 
-Bootstrap 4 & Font awesome 4.7 - IntelliJ Plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Bootstrap 4 & Font awesome - IntelliJ Plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 ## Disclaimer:
 
-Readme template for this for the source was initially borrowed from [here](https://github.com/bodiam/intellij-bootstrap3) & [here](https://github.com/JasonMortonNZ/bs3-sublime-plugin)
+Readme template for this plugin was initially borrowed from [here](https://github.com/bodiam/intellij-bootstrap3) & [here](https://github.com/JasonMortonNZ/bs3-sublime-plugin)

@@ -1139,7 +1139,7 @@
       <option name="JSX_HTML" value="true"/>
     </context>
   </template>
-  <template name="b4-form-input-sizing" value="&lt;div class=&quot;form-group&quot;>&#xa;  &lt;label for=&quot;$5$&quot;>$1$&lt;/label>&#xa;  &lt;input type=&quot;$3$&quot;&#xa;      class=&quot;form-control form-control-$4$}&quot; name=&quot;$5$&quot; id=&quot;$5$&quot; aria-describedby=&quot;$6$&quot; placeholder=&quot;$2$&quot;>&#xa;  &lt;small id=&quot;$6$&quot; class=&quot;form-text text-muted&quot;>$7$&lt;/small>&#xa;&lt;/div>$END$" description="form input sizing" toReformat="true">
+  <template name="b4-form-input-sizing" value="&lt;div class=&quot;form-group&quot;>&#xa;  &lt;label for=&quot;$5$&quot;>$1$&lt;/label>&#xa;  &lt;input type=&quot;$3$&quot;&#xa;      class=&quot;form-control form-control-$4$&quot; name=&quot;$5$&quot; id=&quot;$5$&quot; aria-describedby=&quot;$6$&quot; placeholder=&quot;$2$&quot;>&#xa;  &lt;small id=&quot;$6$&quot; class=&quot;form-text text-muted&quot;>$7$&lt;/small>&#xa;&lt;/div>$END$" description="form input sizing" toReformat="true">
     <variable name="1" alwaysStopAt="true"/>
     <variable name="2" alwaysStopAt="true"/>
     <variable name="3" expression="&quot;text|password|email|number|submit|date|datetime|datetime-local|month|color|range|search|tel|time|url|week&quot;" alwaysStopAt="true"/>

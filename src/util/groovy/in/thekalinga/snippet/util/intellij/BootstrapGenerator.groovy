@@ -37,7 +37,7 @@ class BootstrapGenerator {
 
             def template = Template.builder()
                     .name(fileBaseName != '$' ? "b4-${fileParent}-${fileBaseName}" : 'b4-$')
-                    .value(templateStr.contains('$END$') ? templateStr : "${templateStr}\$END\$")
+                    .value(templateStr.contains('$END$') ? templateStr.trim() : "${templateStr.trim()}\$END\$")
                     .description(fileBaseName != '$' ? "${fileParent} ${fileBaseName}".replace(/-/, ' ') : 'Bootstrap master template')
                     .toReformat(true)
                     .variables(variables)
