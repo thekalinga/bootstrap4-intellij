@@ -1,0 +1,8 @@
+- Run `BootstrapGenerator`, `FontAwesomeGenerator` & `ReadmeGenerator`
+- Update `CHANGELOG.md`
+- Bump version in `.version` file
+- Run `PluginXmlGenerator`
+- Commit
+- Create tag using `git tag -a <version> -m "<Release notes>"`
+- `git push && git push tag <version>`
+- `./gradlew clean publishPlugin`

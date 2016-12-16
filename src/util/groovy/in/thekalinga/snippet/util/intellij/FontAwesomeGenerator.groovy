@@ -54,7 +54,7 @@ class FontAwesomeGenerator {
         })
         XmlMapper xmlMapper = new XmlMapper();
         xmlMapper.enable(INDENT_OUTPUT);
-        File file = new File("font-awesome.xml");
+        File file = new File("src/main/resources/font-awesome.xml");
 
         TemplateSet templateSet = TemplateSet.builder().group("Font awesome")
                 .templates(templates).build()

@@ -48,7 +48,7 @@ class BootstrapGenerator {
         })
         XmlMapper xmlMapper = new XmlMapper();
         xmlMapper.enable(INDENT_OUTPUT);
-        File file = new File("bootstrap.xml");
+        File file = new File("src/main/resources/bootstrap.xml");
 
         TemplateSet templateSet = TemplateSet.builder().group("Bootstrap 4")
                 .templates(templates).build()
