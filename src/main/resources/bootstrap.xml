@@ -1,12 +1,12 @@
 <templateSet group="Bootstrap 4">
-  <template name="b4-$" value="&lt;!doctype html>&#xa;&lt;html lang=&quot;en&quot;>&#xa;&lt;head>&#xa;    &lt;meta charset=&quot;UTF-8&quot;>&#xa;    &lt;meta name=&quot;viewport&quot;&#xa;          content=&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;>&#xa;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;>&#xa;    &lt;title>$1$&lt;/title>&#xa;    &lt;link rel=&quot;stylesheet&quot; href=&quot;$2$&quot;&#xa;          $3$>&#xa;&lt;/head>&#xa;&lt;body>&#xa;  $8$$END$&#xa;&lt;script src=&quot;$4$&quot;>&lt;/script>&#xa;&lt;script src=&quot;$5$&quot;>&lt;/script>&#xa;&lt;script src=&quot;$6$&quot;&#xa;        $7$>&lt;/script>&#xa;&lt;/body>&#xa;&lt;/html>" description="Bootstrap master template" toReformat="true">
+  <template name="b4-$" value="&lt;!doctype html>&#xa;&lt;html lang=&quot;en&quot;>&#xa;&lt;head>&#xa;    &lt;meta charset=&quot;UTF-8&quot;>&#xa;    &lt;meta name=&quot;viewport&quot;&#xa;          content=&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;>&#xa;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;>&#xa;    &lt;title>$1$&lt;/title>&#xa;    &lt;link rel=&quot;stylesheet&quot; href=&quot;$2$&quot;&#xa;          $3$>&#xa;&lt;/head>&#xa;&lt;body>&#xa;$8$$END$&#xa;&lt;script src=&quot;$4$&quot;>&lt;/script>&#xa;&lt;script src=&quot;$5$&quot;>&lt;/script>&#xa;&lt;script src=&quot;$6$&quot;&#xa;        $7$>&lt;/script>&#xa;&lt;/body>&#xa;&lt;/html>" description="Bootstrap master template" toReformat="true">
     <variable name="1" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-    <variable name="2" expression="&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css&quot;" alwaysStopAt="true"/>
-    <variable name="3" expression="&quot;integrity=\&quot;sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi\&quot; crossorigin=\&quot;anonymous\&quot;&quot;" alwaysStopAt="true"/>
+    <variable name="2" expression="&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css&quot;" alwaysStopAt="true"/>
+    <variable name="3" expression="&quot;integrity=\&quot;sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ\&quot; crossorigin=\&quot;anonymous\&quot;&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js&quot;" alwaysStopAt="true"/>
     <variable name="5" expression="&quot;https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js&quot;" alwaysStopAt="true"/>
-    <variable name="6" expression="&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js&quot;" alwaysStopAt="true"/>
-    <variable name="7" expression="&quot;integrity=\&quot;sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK\&quot; crossorigin=\&quot;anonymous\&quot;&quot;" alwaysStopAt="true"/>
+    <variable name="6" expression="&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js&quot;" alwaysStopAt="true"/>
+    <variable name="7" expression="&quot;integrity=\&quot;sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn\&quot; crossorigin=\&quot;anonymous\&quot;&quot;" alwaysStopAt="true"/>
     <variable name="8" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>

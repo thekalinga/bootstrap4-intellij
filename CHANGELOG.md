@@ -1,3 +1,7 @@
+## Since 2.0.0 (14 Jan 2017):
+  
+  - Updated bootstrap to alpha-6
+
 ## Since 1.0.2 (16 Dec 2016):
   
   - Removed an extra flower bracket from `input-sizing` snippet
