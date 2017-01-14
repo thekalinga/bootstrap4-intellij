@@ -16,7 +16,7 @@ buildscript {
 apply plugin: 'org.jetbrains.intellij'
 
 group 'in.thekalinga'
-version '1.0.1'
+version '2.0.0'
 
 apply plugin: 'groovy'
 apply plugin: 'java'

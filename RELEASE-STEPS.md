@@ -1,4 +1,5 @@
 - Bump version in `.version` file
+- Update version in `build.gradle` file
 - Run `RegeneratePlugin`
 - Update `CHANGELOG.md` with release notes
 - Commit
