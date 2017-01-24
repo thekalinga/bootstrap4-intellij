@@ -39,6 +39,8 @@ To install the plugin open your editor (IntelliJ) and hit:
 2. Modify the html snippet resources under `src/util/resources/bootstrap`. These Html snippets must follow Sublime text snippet format
 3. Send me a pull request
 
+> You just need to create the template htmls in sublime snippet format. There is no need to update `README.md`/`snippets.json` manually. The build will take care of regenerating these files from the templates automatically
+
 ## Changelog
 
 See [here](CHANGELOG.md)

@@ -1,16 +1,16 @@
 <idea-plugin version="2" url="https://github.com/thekalinga/bootstrap4-intellij">
     <id>in.thekalinga.snippet.intellij</id>
     <name>Bootstrap 4 &amp; Font awesome</name>
-    <version>2.0.0</version>
+    <version>2.1.0</version>
     <vendor url="http://github.com/thekalinga">Ashok Koyi</vendor>
 
     <description><![CDATA[
       <h2>Bootstrap 4 & Font awesome live templates/snippets</h2>
-      <img width="1200" height="860" src="https://raw.githubusercontent.com/thekalinga/bootstrap4-intellij/2.0.0/help.gif"/>
+      <img width="1200" height="860" src="https://raw.githubusercontent.com/thekalinga/bootstrap4-intellij/2.1.0/help.gif"/>
       <br />
-      <p>Documentation can be found <a href="https://github.com/thekalinga/bootstrap4-intellij/tree/2.0.0">here</a></p>
+      <p>Documentation can be found <a href="https://github.com/thekalinga/bootstrap4-intellij/tree/2.1.0">here</a></p>
       <br />
-      <p>Release notes can be found <a href="https://github.com/thekalinga/bootstrap4-intellij/tree/2.0.0/CHANGELOG.md">here</a></p>
+      <p>Release notes can be found <a href="https://github.com/thekalinga/bootstrap4-intellij/tree/2.1.0/CHANGELOG.md">here</a></p>
       <br />
       <p>Have a problem, raise an issue <a href="https://github.com/thekalinga/bootstrap4-intellij/issues">here</a></p>
       <br />

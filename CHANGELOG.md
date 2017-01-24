@@ -1,3 +1,8 @@
+## Since 2.1.0 (24 Jan 2017):
+  
+  - Added support for badges
+  - Modified build process & minor documentation updates
+
 ## Since 2.0.0 (14 Jan 2017):
   
   - Updated bootstrap to alpha-6

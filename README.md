@@ -39,6 +39,8 @@ To install the plugin open your editor (IntelliJ) and hit:
 2. Modify the html snippet resources under `src/util/resources/bootstrap`. These Html snippets must follow Sublime text snippet format
 3. Send me a pull request
 
+> You just need to create the template htmls in sublime snippet format. There is no need to update `README.md`/`snippets.json` manually. The build will take care of regenerating these files from the templates automatically
+
 ## Changelog
 
 See [here](CHANGELOG.md)
@@ -66,6 +68,23 @@ alert-success-a | Alert success with link
 alert-success | Alert success
 alert-warning-a | Alert warning with link
 alert-warning | Alert warning
+
+### Badge
+
+Trigger | Description
+--- | ---
+badge-danger-pill | Badge danger pill
+badge-danger | Badge danger
+badge-default-pill | Badge default pill
+badge-default | Badge default
+badge-info-pill | Badge info pill
+badge-info | Badge info
+badge-primary-pill | Badge primary pill
+badge-primary | Badge primary
+badge-success-pill | Badge success pill
+badge-success | Badge success
+badge-warning-pill | Badge warning pill
+badge-warning | Badge warning
 
 ### Button group
 

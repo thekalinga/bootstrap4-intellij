@@ -158,6 +158,138 @@
       <option name="JSX_HTML" value="true"/>
     </context>
   </template>
+  <template name="b4-badge-danger-pill" value="&lt;span class=&quot;badge badge-pill badge-danger&quot;>$1$&lt;/span>$END$" description="badge danger pill" toReformat="true">
+    <variable name="1" expression="&quot;Danger!&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-danger" value="&lt;span class=&quot;badge badge-danger&quot;>$1$&lt;/span>$END$" description="badge danger" toReformat="true">
+    <variable name="1" expression="&quot;Danger!&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-default-pill" value="&lt;span class=&quot;badge badge-pill badge-default&quot;>$1$&lt;/span>$END$" description="badge default pill" toReformat="true">
+    <variable name="1" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-default" value="&lt;span class=&quot;badge badge-default&quot;>$1$&lt;/span>$END$" description="badge default" toReformat="true">
+    <variable name="1" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-info-pill" value="&lt;span class=&quot;badge badge-pill badge-info&quot;>$1$&lt;/span>$END$" description="badge info pill" toReformat="true">
+    <variable name="1" expression="&quot;Heads up!&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-info" value="&lt;span class=&quot;badge badge-info&quot;>$1$&lt;/span>$END$" description="badge info" toReformat="true">
+    <variable name="1" expression="&quot;Heads up!&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-primary-pill" value="&lt;span class=&quot;badge badge-pill badge-primary&quot;>$1$&lt;/span>$END$" description="badge primary pill" toReformat="true">
+    <variable name="1" expression="&quot;Primary&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-primary" value="&lt;span class=&quot;badge badge-primary&quot;>$1$&lt;/span>$END$" description="badge primary" toReformat="true">
+    <variable name="1" expression="&quot;Primary&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-success-pill" value="&lt;span class=&quot;badge badge-pill badge-success&quot;>$1$&lt;/span>$END$" description="badge success pill" toReformat="true">
+    <variable name="1" expression="&quot;Success!&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-success" value="&lt;span class=&quot;badge badge-success&quot;>$1$&lt;/span>$END$" description="badge success" toReformat="true">
+    <variable name="1" expression="&quot;Success!&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-warning-pill" value="&lt;span class=&quot;badge badge-pill badge-warning&quot;>$1$&lt;/span>$END$" description="badge warning pill" toReformat="true">
+    <variable name="1" expression="&quot;Be careful!&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
+  <template name="b4-badge-warning" value="&lt;span class=&quot;badge badge-warning&quot;>$1$&lt;/span>$END$" description="badge warning" toReformat="true">
+    <variable name="1" expression="&quot;Be careful!&quot;" alwaysStopAt="true"/>
+    <context>
+      <option name="HTML_TEXT" value="true"/>
+      <option name="HTML" value="true"/>
+      <option name="PHP" value="true"/>
+      <option name="GSP" value="true"/>
+      <option name="JSP" value="true"/>
+      <option name="JSX_HTML" value="true"/>
+    </context>
+  </template>
   <template name="b4-bgroup-default" value="&lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;$2$&quot;>&#xa;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-$1$&quot;>$3$&lt;/button>&#xa;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-$1$&quot;>$4$&lt;/button>&#xa;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-$1$&quot;>$5$&lt;/button>&#xa;&lt;/div>$END$" description="bgroup default" toReformat="true">
     <variable name="1" expression="&quot;primary|secondary|success|info|warning|danger|link&quot;" alwaysStopAt="true"/>
     <variable name="2" alwaysStopAt="true"/>
