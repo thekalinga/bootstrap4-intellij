@@ -1,3 +1,7 @@
+## Since 2.1.1 (15 Feb 2017):
+  
+  - Fixed issue with carousel
+
 ## Since 2.1.0 (24 Jan 2017):
   
   - Added support for badges
