@@ -33,11 +33,12 @@ repositories {
 }
 
 intellij {
-    publish {
+    publishPlugin {
         username System.getProperty('ij_plugin_portal_login')
         password System.getProperty('ij_plugin_portal_password')
         channels 'eap', 'nightly', 'default'
     }
+    updateSinceUntilBuild false
 }
 
 dependencies {
