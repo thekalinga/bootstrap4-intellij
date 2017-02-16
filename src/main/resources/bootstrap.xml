@@ -859,7 +859,7 @@
       <option name="JSX_HTML" value="true"/>
     </context>
   </template>
-  <template name="b4-collapse-accordion" value="&lt;div id=&quot;$1$&quot; role=&quot;tablist&quot; aria-multiselectable=&quot;true&quot;>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-header&quot; role=&quot;tab&quot; id=&quot;$3$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h5 class=&quot;mb-0&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#$1$&quot; href=&quot;#$5$&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;$5$&quot;>&#xa;          $2$&#xa;        &lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/h5>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;div id=&quot;$5$&quot; class=&quot;collapse in&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;$3$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$4$&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-header&quot; role=&quot;tab&quot; id=&quot;$7$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h5 class=&quot;mb-0&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#$1$&quot; href=&quot;#$9$&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;$9$&quot;>&#xa;          $6$&#xa;        &lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/h5>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;div id=&quot;$9$&quot; class=&quot;collapse in&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;$7$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$8$&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="collapse accordion" toReformat="true">
+  <template name="b4-collapse-accordion" value="&lt;div id=&quot;$1$&quot; role=&quot;tablist&quot; aria-multiselectable=&quot;true&quot;>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-header&quot; role=&quot;tab&quot; id=&quot;$3$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h5 class=&quot;mb-0&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#$1$&quot; href=&quot;#$5$&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;$5$&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$2$&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/h5>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;div id=&quot;$5$&quot; class=&quot;collapse in&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;$3$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$4$&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-header&quot; role=&quot;tab&quot; id=&quot;$7$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h5 class=&quot;mb-0&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#$1$&quot; href=&quot;#$9$&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;$9$&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$6$&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/h5>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;div id=&quot;$9$&quot; class=&quot;collapse in&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;$7$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$8$&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="collapse accordion" toReformat="true">
     <variable name="1" expression="&quot;accordianId&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="&quot;Section 1&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="&quot;section1HeaderId&quot;" alwaysStopAt="true"/>
@@ -867,7 +867,7 @@
     <variable name="5" expression="&quot;section1ContentId&quot;" alwaysStopAt="true"/>
     <variable name="6" expression="&quot;Section 2&quot;" alwaysStopAt="true"/>
     <variable name="7" expression="&quot;section2HeaderId&quot;" alwaysStopAt="true"/>
-    <variable name="8" expression="&quot;Section 3 content&quot;" alwaysStopAt="true"/>
+    <variable name="8" expression="&quot;Section 2 content&quot;" alwaysStopAt="true"/>
     <variable name="9" expression="&quot;section2ContentId&quot;" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
@@ -904,8 +904,8 @@
       <option name="JSX_HTML" value="true"/>
     </context>
   </template>
-  <template name="b4-dropdown-alignment" value="&lt;div class=&quot;dropdown open&quot;>&#xa;&#x9;&lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;$2$&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot;&#xa;&#x9;&#x9;&#x9;aria-expanded=&quot;false&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$1$&#xa;&#x9;&#x9;&#x9;&lt;/button>&#xa;&#x9;&lt;div class=&quot;dropdown-menu dropdown-menu-right&quot; aria-labelledby=&quot;$2$&quot;>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$4$&quot;>$3$&lt;/a>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item disabled&quot; href=&quot;$6$&quot;>$5$&lt;/a>&#xa;&#x9;&#x9;&lt;h6 class=&quot;dropdown-header&quot;>$7$&lt;/h6>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$9$&quot;>$8$&lt;/a>&#xa;&#x9;&#x9;&lt;div class=&quot;dropdown-divider&quot;>&lt;/div>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$11$&quot;>$10$&lt;/a>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="dropdown alignment" toReformat="true">
-    <variable name="1" expression="&quot;Dropdown&quot;" alwaysStopAt="true"/>
+  <template name="b4-dropdown-alignment" value="&lt;div class=&quot;btn-group&quot;>&#xa;&#x9;&lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;$2$&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot;&#xa;&#x9;&#x9;&#x9;aria-expanded=&quot;false&quot;>&#xa;&#x9;&#x9;$1$&#xa;&#x9;&lt;/button>&#xa;&#x9;&lt;div class=&quot;dropdown-menu dropdown-menu-right&quot; aria-labelledby=&quot;$2$&quot;>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$4$&quot;>$3$&lt;/a>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item disabled&quot; href=&quot;$6$&quot;>$5$&lt;/a>&#xa;&#x9;&#x9;&lt;h6 class=&quot;dropdown-header&quot;>$7$&lt;/h6>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$9$&quot;>$8$&lt;/a>&#xa;&#x9;&#x9;&lt;div class=&quot;dropdown-divider&quot;>&lt;/div>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$11$&quot;>$10$&lt;/a>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="dropdown alignment" toReformat="true">
+    <variable name="1" expression="&quot;This dropdown's menu is right-aligned&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="&quot;triggerId&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="&quot;Action&quot;" alwaysStopAt="true"/>
     <variable name="4" expression="&quot;#&quot;" alwaysStopAt="true"/>
@@ -941,7 +941,7 @@
       <option name="JSX_HTML" value="true"/>
     </context>
   </template>
-  <template name="b4-dropdown-button" value="&lt;div class=&quot;dropdown open&quot;>&#xa;&#x9;&lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;$2$&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot;&#xa;&#x9;&#x9;&#x9;aria-expanded=&quot;false&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$1$&#xa;&#x9;&#x9;&#x9;&lt;/button>&#xa;&#x9;&lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$2$&quot;>&#xa;&#x9;&#x9;&lt;button class=&quot;dropdown-item&quot; href=&quot;$4$&quot;>$3$&lt;/a>&#xa;&#x9;&#x9;&lt;button class=&quot;dropdown-item disabled&quot; href=&quot;$6$&quot;>$5$&lt;/a>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="dropdown button" toReformat="true">
+  <template name="b4-dropdown-button" value="&lt;div class=&quot;dropdown open&quot;>&#xa;&#x9;&lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;$2$&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot;&#xa;&#x9;&#x9;&#x9;aria-expanded=&quot;false&quot;>&#xa;&#x9;&#x9;$1$&#xa;&#x9;&lt;/button>&#xa;&#x9;&lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$2$&quot;>&#xa;&#x9;&#x9;&lt;button class=&quot;dropdown-item&quot; href=&quot;$4$&quot;>$3$&lt;/button>&#xa;&#x9;&#x9;&lt;button class=&quot;dropdown-item disabled&quot; href=&quot;$6$&quot;>$5$&lt;/button>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="dropdown button" toReformat="true">
     <variable name="1" expression="&quot;Dropdown&quot;" alwaysStopAt="true"/>
     <variable name="2" expression="&quot;triggerId&quot;" alwaysStopAt="true"/>
     <variable name="3" expression="&quot;Action&quot;" alwaysStopAt="true"/>
@@ -1054,17 +1054,18 @@
       <option name="JSX_HTML" value="true"/>
     </context>
   </template>
-  <template name="b4-dropdown-up" value="&lt;div class=&quot;btn-group dropup&quot;>&#xa;  &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;>$1$&lt;/button>&#xa;  &lt;div class=&quot;dropdown-menu&quot;>&#xa;    &lt;a class=&quot;dropdown-item&quot; href=&quot;$3$&quot;>$2$&lt;/a>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item disabled&quot; href=&quot;$5$&quot;>$4$&lt;/a>&#xa;&#x9;&#x9;&lt;h6 class=&quot;dropdown-header&quot;>$6$&lt;/h6>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$8$&quot;>$7$&lt;/a>&#xa;&#x9;&#x9;&lt;div class=&quot;dropdown-divider&quot;>&lt;/div>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$10$&quot;>$9$&lt;/a>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="dropdown up" toReformat="true">
-    <variable name="1" expression="&quot;Dropup&quot;" alwaysStopAt="true"/>
-    <variable name="2" expression="&quot;Action&quot;" alwaysStopAt="true"/>
-    <variable name="3" expression="&quot;#&quot;" alwaysStopAt="true"/>
-    <variable name="4" expression="&quot;Disabled action&quot;" alwaysStopAt="true"/>
-    <variable name="5" expression="&quot;#&quot;" alwaysStopAt="true"/>
-    <variable name="6" expression="&quot;Section header&quot;" alwaysStopAt="true"/>
-    <variable name="7" expression="&quot;Action&quot;" alwaysStopAt="true"/>
-    <variable name="8" expression="&quot;#&quot;" alwaysStopAt="true"/>
-    <variable name="9" expression="&quot;After divider action&quot;" alwaysStopAt="true"/>
-    <variable name="10" expression="&quot;#&quot;" alwaysStopAt="true"/>
+  <template name="b4-dropdown-up" value="&lt;div class=&quot;dropup&quot;>&#xa;&#x9;&lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;$2$&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot;&#xa;&#x9;&#x9;&#x9;aria-expanded=&quot;false&quot;>&#xa;&#x9;&#x9;$1$&#xa;&#x9;&lt;/button>&#xa;&#x9;&lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$2$&quot;>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$4$&quot;>$3$&lt;/a>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item disabled&quot; href=&quot;$6$&quot;>$5$&lt;/a>&#xa;&#x9;&#x9;&lt;h6 class=&quot;dropdown-header&quot;>$7$&lt;/h6>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$9$&quot;>$8$&lt;/a>&#xa;&#x9;&#x9;&lt;div class=&quot;dropdown-divider&quot;>&lt;/div>&#xa;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$11$&quot;>$10$&lt;/a>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="dropdown up" toReformat="true">
+    <variable name="1" expression="&quot;Dropdown&quot;" alwaysStopAt="true"/>
+    <variable name="2" expression="&quot;triggerId&quot;" alwaysStopAt="true"/>
+    <variable name="3" expression="&quot;Action&quot;" alwaysStopAt="true"/>
+    <variable name="4" expression="&quot;#&quot;" alwaysStopAt="true"/>
+    <variable name="5" expression="&quot;Disabled action&quot;" alwaysStopAt="true"/>
+    <variable name="6" expression="&quot;#&quot;" alwaysStopAt="true"/>
+    <variable name="7" expression="&quot;Section header&quot;" alwaysStopAt="true"/>
+    <variable name="8" expression="&quot;Action&quot;" alwaysStopAt="true"/>
+    <variable name="9" expression="&quot;#&quot;" alwaysStopAt="true"/>
+    <variable name="10" expression="&quot;After divider action&quot;" alwaysStopAt="true"/>
+    <variable name="11" expression="&quot;#&quot;" alwaysStopAt="true"/>
     <context>
       <option name="HTML_TEXT" value="true"/>
       <option name="HTML" value="true"/>
