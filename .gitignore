@@ -7,3 +7,4 @@ target/
 /bootstrap.xml
 /font-awesome.xml
 *.*~
+*.log
